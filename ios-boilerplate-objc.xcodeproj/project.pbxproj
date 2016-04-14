@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		757566C31CBF8494008C4F52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 757566C21CBF8494008C4F52 /* main.m */; };
+		757566C61CBF8494008C4F52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757566C51CBF8494008C4F52 /* AppDelegate.m */; };
+		757566C91CBF8494008C4F52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757566C81CBF8494008C4F52 /* ViewController.m */; };
+		757566CC1CBF8494008C4F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757566CA1CBF8494008C4F52 /* Main.storyboard */; };
+		757566CE1CBF8494008C4F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757566CD1CBF8494008C4F52 /* Assets.xcassets */; };
+		757566D11CBF8494008C4F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757566CF1CBF8494008C4F52 /* LaunchScreen.storyboard */; };
+		757566DF1CBF859E008C4F52 /* fliclib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757566DA1CBF8593008C4F52 /* fliclib.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		757566E01CBF859E008C4F52 /* fliclib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 757566DA1CBF8593008C4F52 /* fliclib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		757566E11CBF859E008C4F52 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				757566E01CBF859E008C4F52 /* fliclib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		757566BE1CBF8494008C4F52 /* ios-boilerplate-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-boilerplate-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		757566C21CBF8494008C4F52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		757566C41CBF8494008C4F52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		757566C51CBF8494008C4F52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		757566C71CBF8494008C4F52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		757566C81CBF8494008C4F52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		757566CB1CBF8494008C4F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		757566CD1CBF8494008C4F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		757566D01CBF8494008C4F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		757566D21CBF8494008C4F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757566DA1CBF8593008C4F52 /* fliclib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fliclib.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		757566BB1CBF8494008C4F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757566DF1CBF859E008C4F52 /* fliclib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		757566B51CBF8494008C4F52 = {
+			isa = PBXGroup;
+			children = (
+				757566D81CBF8593008C4F52 /* fliclib-ios */,
+				757566C01CBF8494008C4F52 /* ios-boilerplate-objc */,
+				757566BF1CBF8494008C4F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		757566BF1CBF8494008C4F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				757566BE1CBF8494008C4F52 /* ios-boilerplate-objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757566C01CBF8494008C4F52 /* ios-boilerplate-objc */ = {
+			isa = PBXGroup;
+			children = (
+				757566C41CBF8494008C4F52 /* AppDelegate.h */,
+				757566C51CBF8494008C4F52 /* AppDelegate.m */,
+				757566C71CBF8494008C4F52 /* ViewController.h */,
+				757566C81CBF8494008C4F52 /* ViewController.m */,
+				757566CA1CBF8494008C4F52 /* Main.storyboard */,
+				757566CD1CBF8494008C4F52 /* Assets.xcassets */,
+				757566CF1CBF8494008C4F52 /* LaunchScreen.storyboard */,
+				757566D21CBF8494008C4F52 /* Info.plist */,
+				757566C11CBF8494008C4F52 /* Supporting Files */,
+			);
+			path = "ios-boilerplate-objc";
+			sourceTree = "<group>";
+		};
+		757566C11CBF8494008C4F52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				757566C21CBF8494008C4F52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		757566D81CBF8593008C4F52 /* fliclib-ios */ = {
+			isa = PBXGroup;
+			children = (
+				757566DA1CBF8593008C4F52 /* fliclib.framework */,
+			);
+			path = "fliclib-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		757566BD1CBF8494008C4F52 /* ios-boilerplate-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757566D51CBF8494008C4F52 /* Build configuration list for PBXNativeTarget "ios-boilerplate-objc" */;
+			buildPhases = (
+				757566BA1CBF8494008C4F52 /* Sources */,
+				757566BB1CBF8494008C4F52 /* Frameworks */,
+				757566BC1CBF8494008C4F52 /* Resources */,
+				757566E11CBF859E008C4F52 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-boilerplate-objc";
+			productName = "ios-boilerplate-objc";
+			productReference = 757566BE1CBF8494008C4F52 /* ios-boilerplate-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		757566B61CBF8494008C4F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shortcut Labs AB";
+				TargetAttributes = {
+					757566BD1CBF8494008C4F52 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 757566B91CBF8494008C4F52 /* Build configuration list for PBXProject "ios-boilerplate-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 757566B51CBF8494008C4F52;
+			productRefGroup = 757566BF1CBF8494008C4F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				757566BD1CBF8494008C4F52 /* ios-boilerplate-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		757566BC1CBF8494008C4F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757566D11CBF8494008C4F52 /* LaunchScreen.storyboard in Resources */,
+				757566CE1CBF8494008C4F52 /* Assets.xcassets in Resources */,
+				757566CC1CBF8494008C4F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757566BA1CBF8494008C4F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757566C91CBF8494008C4F52 /* ViewController.m in Sources */,
+				757566C61CBF8494008C4F52 /* AppDelegate.m in Sources */,
+				757566C31CBF8494008C4F52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		757566CA1CBF8494008C4F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757566CB1CBF8494008C4F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		757566CF1CBF8494008C4F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757566D01CBF8494008C4F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		757566D31CBF8494008C4F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		757566D41CBF8494008C4F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		757566D61CBF8494008C4F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fliclib-ios",
+				);
+				INFOPLIST_FILE = "ios-boilerplate-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shortcutlabs.ios-boilerplate-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		757566D71CBF8494008C4F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fliclib-ios",
+				);
+				INFOPLIST_FILE = "ios-boilerplate-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shortcutlabs.ios-boilerplate-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757566B91CBF8494008C4F52 /* Build configuration list for PBXProject "ios-boilerplate-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757566D31CBF8494008C4F52 /* Debug */,
+				757566D41CBF8494008C4F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757566D51CBF8494008C4F52 /* Build configuration list for PBXNativeTarget "ios-boilerplate-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757566D61CBF8494008C4F52 /* Debug */,
+				757566D71CBF8494008C4F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 757566B61CBF8494008C4F52 /* Project object */;
+}
