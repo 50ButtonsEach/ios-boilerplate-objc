@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <fliclib/fliclib.h>
 
+@ import fliclib;
 
 // These are demo keys, you must replace these with your own credentials before deploying to the App Store
 // Get your API Keys here: https://flic.io/partners/developers/credentials

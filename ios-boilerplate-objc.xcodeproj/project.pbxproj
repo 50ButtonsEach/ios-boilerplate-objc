@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AAA66E82448798900B0ABFE /* fliclib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAA66E72448798900B0ABFE /* fliclib.xcframework */; };
+		3AAA66E92448798900B0ABFE /* fliclib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAA66E72448798900B0ABFE /* fliclib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		757566C31CBF8494008C4F52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 757566C21CBF8494008C4F52 /* main.m */; };
 		757566C61CBF8494008C4F52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757566C51CBF8494008C4F52 /* AppDelegate.m */; };
 		757566C91CBF8494008C4F52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757566C81CBF8494008C4F52 /* ViewController.m */; };
 		757566CC1CBF8494008C4F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757566CA1CBF8494008C4F52 /* Main.storyboard */; };
 		757566CE1CBF8494008C4F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757566CD1CBF8494008C4F52 /* Assets.xcassets */; };
 		757566D11CBF8494008C4F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757566CF1CBF8494008C4F52 /* LaunchScreen.storyboard */; };
-		757566DF1CBF859E008C4F52 /* fliclib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757566DA1CBF8593008C4F52 /* fliclib.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		757566E01CBF859E008C4F52 /* fliclib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 757566DA1CBF8593008C4F52 /* fliclib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				757566E01CBF859E008C4F52 /* fliclib.framework in Embed Frameworks */,
+				3AAA66E92448798900B0ABFE /* fliclib.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3AAA66E72448798900B0ABFE /* fliclib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = fliclib.xcframework; path = "fliclib-ios/fliclib.xcframework"; sourceTree = "<group>"; };
 		757566BE1CBF8494008C4F52 /* ios-boilerplate-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-boilerplate-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		757566C21CBF8494008C4F52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		757566C41CBF8494008C4F52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		757566CD1CBF8494008C4F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		757566D01CBF8494008C4F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757566D21CBF8494008C4F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		757566DA1CBF8593008C4F52 /* fliclib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fliclib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,19 +50,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757566DF1CBF859E008C4F52 /* fliclib.framework in Frameworks */,
+				3AAA66E82448798900B0ABFE /* fliclib.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AAA66E62448798900B0ABFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA66E72448798900B0ABFE /* fliclib.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		757566B51CBF8494008C4F52 = {
 			isa = PBXGroup;
 			children = (
-				757566D81CBF8593008C4F52 /* fliclib-ios */,
 				757566C01CBF8494008C4F52 /* ios-boilerplate-objc */,
 				757566BF1CBF8494008C4F52 /* Products */,
+				3AAA66E62448798900B0ABFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,14 +104,6 @@
 				757566C21CBF8494008C4F52 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		757566D81CBF8593008C4F52 /* fliclib-ios */ = {
-			isa = PBXGroup;
-			children = (
-				757566DA1CBF8593008C4F52 /* fliclib.framework */,
-			);
-			path = "fliclib-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +146,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -293,12 +294,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/fliclib-ios",
 				);
 				INFOPLIST_FILE = "ios-boilerplate-objc/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shortcutlabs.ios-boilerplate-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -308,12 +313,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/fliclib-ios",
 				);
 				INFOPLIST_FILE = "ios-boilerplate-objc/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shortcutlabs.ios-boilerplate-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

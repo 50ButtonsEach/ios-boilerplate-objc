@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import <fliclib/fliclib.h>
+
+@ import fliclib;
 
 @interface AppDelegate ()
 
