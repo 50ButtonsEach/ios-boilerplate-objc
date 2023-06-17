@@ -11,9 +11,9 @@
 @ import fliclib;
 
 // These are demo keys, you must replace these with your own credentials before deploying to the App Store
-// Get your API Keys here: https://flic.io/partners/developers/credentials
+// Get your API Keys here: https://partners.flic.io/partners/developers/credentials
 
-#warning Get your own API keys at https://flic.io/partners/developers/credentials
+#warning Get your own API keys at https://partners.flic.io/partners/developers/credentials
 #define FLIC_APP_ID @"cfe4b5bb-ba39-4e51-808a-f9dcaad86341"
 #define FLIC_APP_SECRET @"bf6b88da-3c46-46be-bfdb-b3135819183a"
 
